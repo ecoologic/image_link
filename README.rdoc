@@ -1,0 +1,18 @@
+Provides an image with a link and a lot of options
+
+The first parameter identifies the image, 
+
+How to implement it?
+
+Create the folder `/public/images/image_link` and place there your 'button' images, which will be your first parameter.
+When this is a symbol the image is supposed to be in your image_link folder and to be `.png` file, when it's a `String` has to be the full url of your image (therefore other image are allowed).
+
+The second param is the destination path and the rest are options.
+TODO: explain options
+ 
+  # Gemfile
+  gem 'image_link'
+  
+  <!-- /app/views/whatever/you_want.html.hal -->
+  = image_link :list, 'users', users_path
+
