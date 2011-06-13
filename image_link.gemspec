@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.version     = ImageLink::VERSION
   s.authors     = ["ecoologic"]
   s.email       = ["erikecoologic@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{An image with a link}}
+  s.homepage    = "https://github.com/ecoologic/image_link"
+  s.summary     = %q{An image with a link}
   s.description = %q{Provides an image with a link, and a lot of options...}
 
   s.rubyforge_project = "image_link"
