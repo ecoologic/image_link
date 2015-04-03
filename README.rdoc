@@ -1,3 +1,8 @@
+* Working: Yes
+* Interesting: No
+* Progress: Complete
+* Purpose: Experiment
+
 Provides an image with a link and a lot of options
 
 The first parameter identifies the image, 
